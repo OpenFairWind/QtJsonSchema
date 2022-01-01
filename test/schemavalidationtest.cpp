@@ -1,5 +1,5 @@
 #include "schemavalidationtest.h"
-#include "jsonschema.h"
+#include "QtJsonSchema/jsonschema.h"
 
 SchemaValidationTest::SchemaValidationTest(const QStringList& testDataFiles)
 {
