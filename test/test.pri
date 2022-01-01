@@ -1,5 +1,5 @@
 INCLUDEPATH += \
-    $$PWD/../QtJsonSchema/src
+    $$PWD/../lib/include/QtJsonSchema/
 
 HEADERS += \
     $$PWD/*.h
