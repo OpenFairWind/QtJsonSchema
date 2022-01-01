@@ -1,7 +1,7 @@
 TEMPLATE = subdirs
 
 SUBDIRS = \
-    QtJsonSchema \
+    lib \
     test
 
 CONFIG += ordered
