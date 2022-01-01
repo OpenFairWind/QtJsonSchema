@@ -3,10 +3,10 @@
 
 #include <QtCore>
 #include <memory>
-#include "../global.h"
-#include "../pointer/jsonpointer.h"
-#include "../reference-resolver/referenceresolver.h"
-#include "../error/jsonschemavalidationerror.h"
+#include "global.h"
+#include "jsonpointer.h"
+#include "referenceresolver.h"
+#include "jsonschemavalidationerror.h"
 
 class JsonSchemaNodeValidator
 {

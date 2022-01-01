@@ -2,7 +2,7 @@
 #define JSONSCHEMAVALIDATIONERROR_H
 
 #include <QtCore>
-#include "../pointer/jsonpointer.h"
+#include "jsonpointer.h"
 
 class JsonSchemaValidationError
 {

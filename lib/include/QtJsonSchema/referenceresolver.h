@@ -2,7 +2,7 @@
 #define REFERENCERESOLVER_H
 
 #include <QtCore>
-#include "../pointer/jsonpointer.h"
+#include "jsonpointer.h"
 
 class ReferenceResolver
 {

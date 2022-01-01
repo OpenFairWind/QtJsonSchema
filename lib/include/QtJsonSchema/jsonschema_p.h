@@ -3,7 +3,7 @@
 
 #include "jsonschema.h"
 #include <memory>
-#include "validator/jsonschemanodevalidator.h"
+#include "jsonschemanodevalidator.h"
 
 class JsonSchemaPrivate
 {
