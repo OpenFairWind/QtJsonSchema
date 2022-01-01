@@ -1,7 +1,7 @@
-#include "jsonschemanodevalidator.h"
-#include "../hashfunctions.h"
+#include "QtJsonSchema/jsonschemanodevalidator.h"
+#include "QtJsonSchema/hashfunctions.h"
 #include <cmath>
-#include "jsonschemanodevalidator07.h"
+#include "QtJsonSchema/jsonschemanodevalidator07.h"
 
 JsonSchemaNodeValidator* JsonSchemaNodeValidator::getValidator(JsonSchemaVersion::Version version)
 {

@@ -1,4 +1,4 @@
-#include "utils.h"
+#include "QtJsonSchema/utils.h"
 
 QJsonValue jsonDocumentToValue(const QJsonDocument& document)
 {

@@ -1,4 +1,4 @@
-#include "jsonpointer.h"
+#include "QtJsonSchema/jsonpointer.h"
 
 JsonPointer::JsonPointer(const QJsonValue& root)
 {

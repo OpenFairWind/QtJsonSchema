@@ -1,5 +1,5 @@
-#include "jsonschemanodevalidator07.h"
-#include "../reference-resolver/referenceresolver.h"
+#include "QtJsonSchema/jsonschemanodevalidator07.h"
+#include "QtJsonSchema/referenceresolver.h"
 
 JsonSchemaNodeValidator07::JsonSchemaNodeValidator07()
 {

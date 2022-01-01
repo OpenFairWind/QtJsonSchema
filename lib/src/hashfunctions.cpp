@@ -1,5 +1,5 @@
-#include "hashfunctions.h"
-#include "pointer/jsonpointer.h"
+#include "QtJsonSchema/hashfunctions.h"
+#include "QtJsonSchema/jsonpointer.h"
 
 uint qHash(const QJsonValue& json, uint seed)
 {

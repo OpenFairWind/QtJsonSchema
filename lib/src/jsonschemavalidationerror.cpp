@@ -1,4 +1,4 @@
-#include "jsonschemavalidationerror.h"
+#include "QtJsonSchema/jsonschemavalidationerror.h"
 
 JsonSchemaValidationError::JsonSchemaValidationError(const JsonPointer& schemaPtr, const JsonPointer& instancePtr, const QString& error)
 {

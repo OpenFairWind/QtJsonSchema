@@ -1,5 +1,5 @@
-#include "referenceresolver.h"
-#include "../hashfunctions.h"
+#include "QtJsonSchema/referenceresolver.h"
+#include "QtJsonSchema/hashfunctions.h"
 
 ReferenceResolver::ReferenceResolver()
 {

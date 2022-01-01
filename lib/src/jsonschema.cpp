@@ -1,10 +1,10 @@
-#include "jsonschema.h"
-#include "jsonschema_p.h"
-#include "utils.h"
-#include "validator/jsonschemanodevalidator.h"
-#include "metaschema/draft04.h"
-#include "metaschema/draft06.h"
-#include "metaschema/draft07.h"
+#include "QtJsonSchema/jsonschema.h"
+#include "QtJsonSchema/jsonschema_p.h"
+#include "QtJsonSchema/utils.h"
+#include "QtJsonSchema/jsonschemanodevalidator.h"
+#include "QtJsonSchema/metaschema/draft04.h"
+#include "QtJsonSchema/metaschema/draft06.h"
+#include "QtJsonSchema/metaschema/draft07.h"
 
 JsonSchema::JsonSchema(const JsonSchema& other) noexcept
   : d(other.d)
