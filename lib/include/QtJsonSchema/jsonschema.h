@@ -4,8 +4,16 @@
 #include <QtCore>
 #include "global.h"
 
+#if defined(QJSONSCHEMA_COMPILE_LIBRARY)
+#  define QJSONSCHEMA_DECL  Q_DECL_EXPORT
+#elif defined(QJSONSCHEMA_USE_LIBRARY)
+#  define QJSONSCHEMA_DECL Q_DECL_IMPORT
+#else
+#  define QJSONSCHEMA_DECL
+#endif
+
 class JsonSchemaPrivate;
-class JsonSchema
+class QJSONSCHEMA_DECL JsonSchema
 {
 
 public:
