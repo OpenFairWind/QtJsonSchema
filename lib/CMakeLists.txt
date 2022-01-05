@@ -39,7 +39,7 @@ target_include_directories(qtjsonschema
 
 target_compile_definitions(qtjsonschema
         PRIVATE
-        QGV_EXPORT
+        QJSONSCHEMA_COMPILE_LIBRARY
         )
 
 target_link_libraries(qtjsonschema
